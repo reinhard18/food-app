@@ -13,7 +13,7 @@ export const GET = async ()=> {
         console.log(err);
         return new NextResponse(
             JSON.stringify({message: "Something went worng!"}),
-            {status: 500}
+            {status: 500}  
         );
     }
 };
